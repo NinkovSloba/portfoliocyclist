@@ -479,13 +479,13 @@ img {
       text-align: left;
       padding: 3rem 0; }
       #header-home .header-content h1 {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         line-height: 1.2; }
       #header-home .header-content p {
-        font-size: 0.8rem; }
+        font-size: 1rem; }
       #header-home .header-content .btn-light {
         font-size: 0.8rem;
-        padding: 0.5rem 1rem;
+        padding: 0.8rem 1.2rem;
         border-radius: 4px; }
   #header-inner {
     height: 160px;
