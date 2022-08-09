@@ -313,7 +313,8 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
+  grid-template-areas: 'bioimage bio bio'
+ 'aw1 aw2 aw3';
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -393,7 +394,9 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-template-areas: 'name email'
+ 'subject phone'
+ 'message message';
   grid-gap: 1.2rem;
   margin-bottom: 1.5rem; }
   #contact-a .text-fields .name-input {
@@ -466,7 +469,7 @@ img {
     align-items: center; }
     #main-nav li {
       padding: 1rem;
-      font-size: 0.5rem; }
+      font-size: 1rem; }
   #logo {
     width: 90px;
     height: 90px; }
@@ -503,7 +506,11 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3'; }
+    grid-template-areas: 'bioimage'
+ 'bio'
+ 'aw1'
+ 'aw2'
+ 'aw3'; }
   #about-c .about-logos {
     grid-template-columns: 1fr; }
     #about-c .about-logos img {
@@ -512,7 +519,11 @@ img {
       #about-c .about-logos img:last-child {
         margin-bottom: 0; }
   #contact-a .text-fields {
-    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+    grid-template-areas: 'name'
+ 'subject'
+ 'email'
+ 'phone'
+ 'message'; }
   #contact-b div {
     border-bottom: 1px #555 solid;
     padding-bottom: 2rem;
